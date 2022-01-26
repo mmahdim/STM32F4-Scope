@@ -12,5 +12,7 @@ https://www.youtube.com/watch?v=pv_ZHL44sbU
 
 Donations:
 BTC:
+34Hf7Xb4twf2kK4PrSRhjoiNXm7kTzeggs
 
-ETH:
+ETH (ERC20):
+0xb8fdebde6733df0189404ce845766d27b81df8bc
