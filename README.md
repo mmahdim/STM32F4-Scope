@@ -8,7 +8,7 @@ Needs some cleanup, and also some features like Volts/Div and Time/Div are not f
 I also have written a Python application which receives the waveform from the USB VCP and displays the waveform on PC, which I will upload if the project received public attention.
 
 Here's a youtube Demo:
-
+https://www.youtube.com/watch?v=pv_ZHL44sbU
 
 Donations:
 BTC:
