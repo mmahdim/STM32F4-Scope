@@ -1,0 +1,16 @@
+Font.hpp:198:30:virtual const touchgfx::GlyphNode* touchgfx::Font::getGlyph(touchgfx::Unicode::UnicodeChar) const	16	static
+Font.hpp:217:34:virtual touchgfx::Unicode::UnicodeChar touchgfx::Font::getFallbackChar() const	0	static
+Font.hpp:230:34:virtual touchgfx::Unicode::UnicodeChar touchgfx::Font::getEllipsisChar() const	0	static
+Font.hpp:319:44:virtual uint16_t touchgfx::Font::getFontHeight() const	0	static
+Font.hpp:331:44:virtual uint16_t touchgfx::Font::getMinimumTextHeight() const	0	static
+Font.hpp:341:43:virtual uint8_t touchgfx::Font::getBitsPerPixel() const	0	static
+Font.hpp:351:43:virtual uint8_t touchgfx::Font::getByteAlignRow() const	0	static
+UnmappedDataFont.hpp:89:29:virtual const uint16_t* touchgfx::UnmappedDataFont::getGSUBTable() const	0	static
+UnmappedDataFont.hpp:99:45:virtual const touchgfx::FontContextualFormsTable* touchgfx::UnmappedDataFont::getContextualFormsTable() const	0	static
+UnmappedDataFont.cpp:41:16:virtual const uint8_t* touchgfx::UnmappedDataFont::getPixelData(const touchgfx::GlyphNode*) const	0	static
+UnmappedDataFont.cpp:47:8:virtual int8_t touchgfx::UnmappedDataFont::getKerning(touchgfx::Unicode::UnicodeChar, const touchgfx::GlyphNode*) const	8	static
+UnmappedDataFont.hpp:19:7:touchgfx::UnmappedDataFont::~UnmappedDataFont()	0	static
+UnmappedDataFont.hpp:19:7:virtual touchgfx::UnmappedDataFont::~UnmappedDataFont()	8	static
+UnmappedDataFont.cpp:12:1:touchgfx::UnmappedDataFont::UnmappedDataFont(const touchgfx::GlyphNode*, const uint16_t*, uint16_t, uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, const uint8_t* const*, const touchgfx::KerningNode*, touchgfx::Unicode::UnicodeChar, touchgfx::Unicode::UnicodeChar, const uint16_t*, const touchgfx::FontContextualFormsTable*)	16	static
+UnmappedDataFont.cpp:69:5:int touchgfx::UnmappedDataFont::lookupUnicode(uint16_t) const	16	static
+UnmappedDataFont.cpp:24:18:virtual const touchgfx::GlyphNode* touchgfx::UnmappedDataFont::getGlyph(touchgfx::Unicode::UnicodeChar, const uint8_t*&, uint8_t&) const	8	static

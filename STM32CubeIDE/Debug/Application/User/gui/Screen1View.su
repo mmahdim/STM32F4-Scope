@@ -1,0 +1,20 @@
+Screen.hpp:103:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:153:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Screen1View.hpp:27:13:Screen1View::~Screen1View()	0	static
+Screen1View.cpp:15:6:virtual void Screen1View::tearDownScreen()	0	static
+Screen1View.cpp:10:6:virtual void Screen1View::setupScreen()	0	static
+Screen1View.cpp:107:6:virtual void Screen1View::TimDivHandle()	0	static
+Screen1View.cpp:88:6:virtual void Screen1View::ASNHandle()	8	static
+Screen1View.hpp:27:13:virtual Screen1View::~Screen1View()	8	static
+Screen1View.cpp:74:6:virtual void Screen1View::SendButtonHandle()	8	static
+Drawable.hpp:539:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Screen1View.cpp:5:1:Screen1View::Screen1View()	8	static
+Screen1View.cpp:20:10:uint16_t Screen1View::_UpdateAddress(int)	0	static
+Screen1View.cpp:28:6:void Screen1View::UpdateGraph()	32	static
+Screen1View.cpp:37:6:virtual void Screen1View::handleTickEvent()	24	static,ignoring_inline_asm
+Screen1View.cpp:118:6:virtual void Screen1View::TimDivResetHandle()	24	static
+Screen1View.cpp:129:6:virtual void Screen1View::TimDivRightHandle()	24	static
+Screen1View.cpp:171:6:virtual void Screen1View::TimDivLeftHande()	24	static
+Screen1View.cpp:213:6:virtual void Screen1View::TimDivSliderHandle(int)	24	static
+Screen1View.cpp:252:7:virtual void Screen1View::TimDivDownHande()	16	static
+Screen1View.cpp:267:7:virtual void Screen1View::TimDivUpHandle()	24	static

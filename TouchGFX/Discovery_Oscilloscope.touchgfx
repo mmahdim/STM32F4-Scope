@@ -1,0 +1,711 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 3,
+              "Green": 0,
+              "Blue": 31
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 320,
+            "Height": 240,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "DynamicGraph",
+            "DataSeed": 1134737915,
+            "NumberOfValues": 180,
+            "MaxY": 4100.0,
+            "MinY": 0.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": false,
+            "FirstIndex": 0,
+            "LastIndex": 179,
+            "MapDataPointIndexToCustomValue": false,
+            "XAxisOffset": 0.0,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "Alpha": 255,
+            "LabelSizeTop": 0,
+            "LabelSizeBottom": 0,
+            "LabelSizeLeft": 0,
+            "LabelSizeRight": 0,
+            "PaddingTop": 0,
+            "PaddingBottom": 0,
+            "PaddingLeft": 0,
+            "PaddingRight": 0,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 1,
+                "Color": {
+                  "Red": 144,
+                  "Green": 255,
+                  "Blue": 0
+                },
+                "Alpha": 209
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 94,
+                "Green": 94,
+                "Blue": 94
+              },
+              "Interval": 18.0,
+              "LineWidth": 1,
+              "Alpha": 65
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 89,
+                "Green": 89,
+                "Blue": 89
+              },
+              "Interval": 410.0,
+              "LineWidth": 1,
+              "Alpha": 62
+            },
+            "Name": "dynamicGraph1",
+            "X": 0,
+            "Y": 60,
+            "Width": 320,
+            "Height": 180,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "Alpha": 255,
+                "IconPressed": "__designer\\Blue_Icons_Inbox_32.png",
+                "IconReleased": "__designer\\Blue_Icons_Outbox_32.png",
+                "IconX": 15,
+                "IconY": 17,
+                "IconHeight": 26,
+                "IconWidth": 30,
+                "Name": "SendButton",
+                "X": 0,
+                "Y": 0,
+                "Width": 60,
+                "Height": 60,
+                "Visible": false,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "TextArea",
+                "TextId": "SingleUseId1",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 255,
+                "AutoSize": true,
+                "LineSpacing": 0,
+                "Wildcard1": {
+                  "TextId": "SingleUseId2",
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                },
+                "Name": "SampleRateText",
+                "X": 6,
+                "Y": 6,
+                "Width": 45,
+                "Height": 13,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "Alpha": 255,
+                "IconPressed": "__designer\\Blue_Icons_Search_32.png",
+                "IconReleased": "__designer\\Blue_Icons_Search_32.png",
+                "IconX": 15,
+                "IconY": 15,
+                "IconHeight": 30,
+                "IconWidth": 30,
+                "IconStyle": "Icon55",
+                "Name": "TimDivButton",
+                "X": 200,
+                "Y": 0,
+                "Width": 60,
+                "Height": 60,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "TextArea",
+                "TextId": "SingleUseId5",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 255,
+                "AutoSize": true,
+                "LineSpacing": 0,
+                "Wildcard1": {
+                  "TextId": "SingleUseId6",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                },
+                "Name": "TimedivText",
+                "X": 145,
+                "Y": 6,
+                "Width": 30,
+                "Height": 13,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "FlexButton",
+                "Alpha": 255,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "TextButtonStyle",
+                    "X": 0,
+                    "Y": 3,
+                    "TextId": "SingleUseId3",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "SingleUseId4",
+                      "UseBuffer": true,
+                      "BufferSize": 2
+                    },
+                    "ColorReleased": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "ColorPressed": {
+                      "Red": 10,
+                      "Green": 10,
+                      "Blue": 10
+                    }
+                  },
+                  {
+                    "Type": "ImageButtonStyle",
+                    "X": 0,
+                    "Y": 0,
+                    "LockFlexButtonToImageSize": false,
+                    "ImageReleased": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                    "ImagePressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png"
+                  }
+                ],
+                "Name": "asnButton",
+                "X": 260,
+                "Y": 0,
+                "Width": 60,
+                "Height": 60,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "TextArea",
+                "TextId": "SingleUseId7",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 255,
+                "AutoSize": true,
+                "LineSpacing": 0,
+                "Wildcard1": {
+                  "TextId": "SingleUseId8",
+                  "UseBuffer": true,
+                  "BufferSize": 13
+                },
+                "Name": "TimDivOffset",
+                "X": 149,
+                "Y": 24,
+                "Width": 22,
+                "Height": 13,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Image",
+                "RelativeFilename": "arrow.png",
+                "Alpha": 255,
+                "Name": "OffsetArrow",
+                "X": 156,
+                "Y": 54,
+                "Width": 9,
+                "Height": 6,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "Container",
+            "IsCacheableContainer": false,
+            "Name": "SettingCont",
+            "X": 0,
+            "Y": 0,
+            "Width": 320,
+            "Height": 60,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+                "Alpha": 85,
+                "IconPressed": "Zoomin.png",
+                "IconReleased": "Zoomin.png",
+                "IconX": 14,
+                "IconY": 14,
+                "IconHeight": 33,
+                "IconWidth": 32,
+                "ButtonStyle": "Style5",
+                "Name": "TimDivUp",
+                "X": 260,
+                "Y": 0,
+                "Width": 60,
+                "Height": 60,
+                "Visible": false,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+                "Alpha": 85,
+                "IconPressed": "zoomout.png",
+                "IconReleased": "zoomout.png",
+                "IconX": 14,
+                "IconY": 14,
+                "IconHeight": 32,
+                "IconWidth": 32,
+                "ButtonStyle": "Style5",
+                "Name": "TimDivDown",
+                "X": 260,
+                "Y": 60,
+                "Width": 60,
+                "Height": 60,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+                "Alpha": 85,
+                "IconPressed": "__designer\\Blue_Icons_Back_arrow_32.png",
+                "IconReleased": "__designer\\Blue_Icons_Back_arrow_32.png",
+                "IconX": 22,
+                "IconY": 15,
+                "IconHeight": 30,
+                "IconWidth": 17,
+                "ButtonStyle": "Style5",
+                "IconStyle": "Icon5",
+                "Name": "TimDivLeft",
+                "X": 122,
+                "Y": 20,
+                "Width": 60,
+                "Height": 60,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+                "Alpha": 85,
+                "IconPressed": "__designer\\Blue_Icons_Next_arrow_32.png",
+                "IconReleased": "__designer\\Blue_Icons_Next_arrow_32.png",
+                "IconX": 22,
+                "IconY": 15,
+                "IconHeight": 30,
+                "IconWidth": 17,
+                "ButtonStyle": "Style5",
+                "IconStyle": "Icon39",
+                "Name": "TimDivRight",
+                "X": 182,
+                "Y": 20,
+                "Width": 60,
+                "Height": 60,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+                "Alpha": 85,
+                "IconPressed": "__designer\\Blue_Icons_Refresh_32.png",
+                "IconReleased": "__designer\\Blue_Icons_Refresh_32.png",
+                "IconX": 15,
+                "IconY": 16,
+                "IconHeight": 28,
+                "IconWidth": 30,
+                "ButtonStyle": "Style5",
+                "IconStyle": "Icon51",
+                "Name": "TimDivReset",
+                "X": 152,
+                "Y": 80,
+                "Width": 60,
+                "Height": 60,
+                "Visible": false,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Slider",
+                "IsHorizontalSlider": true,
+                "BackgroundUnselected": "__designer\\Blue_Slider_Horizontal_Medium_Slider_Round_back.png",
+                "BackgroundSelected": "__designer\\Blue_Slider_Horizontal_Medium_Slider_Round_fill.png",
+                "Indicator": "__designer\\Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.png",
+                "BackgroundX": 2,
+                "BackgroundY": 19,
+                "IndicatorPos": 2,
+                "IndicatorMax": 310,
+                "IndicatorMin": 0,
+                "ValueMax": 323,
+                "ValueMin": -323,
+                "InitValue": 0,
+                "Name": "TimDivSlider",
+                "X": -19,
+                "Y": 128,
+                "Width": 358,
+                "Height": 52,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "Container",
+            "IsCacheableContainer": false,
+            "Name": "TimDivCont",
+            "X": 0,
+            "Y": 60,
+            "Width": 320,
+            "Height": 180,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Line",
+            "Color": {
+              "Red": 161,
+              "Green": 13,
+              "Blue": 13
+            },
+            "FileNameImage": "",
+            "Alpha": 255,
+            "StartX": 160,
+            "StartY": 60,
+            "EndX": 161,
+            "EndY": 62,
+            "LineWidth": 2,
+            "LineEndingStyle": "Butt",
+            "Name": "line1",
+            "X": 0,
+            "Y": 0,
+            "Width": 320,
+            "Height": 240,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SendButtonClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SendButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SendButtonHandle"
+            }
+          },
+          {
+            "InteractionName": "ASNButtonClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "asnButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ASNHandle"
+            }
+          },
+          {
+            "InteractionName": "TimDivButtonClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivHandle"
+            }
+          },
+          {
+            "InteractionName": "TimDivResetClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivReset"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivResetHandle"
+            }
+          },
+          {
+            "InteractionName": "TimDivRightClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivRight"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivRightHandle"
+            }
+          },
+          {
+            "InteractionName": "TimDivLeftClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivLeft"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivLeftHande"
+            }
+          },
+          {
+            "InteractionName": "TimDivDownClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivDownHande"
+            }
+          },
+          {
+            "InteractionName": "TimDivUpClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TimDivUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivUpHandle"
+            }
+          },
+          {
+            "InteractionName": "TimDivSliderChange",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "TimDivSlider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TimDivSliderHandle"
+            }
+          }
+        ],
+        "Name": "Screen1",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 4800
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "ResourceId1",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId4",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId5",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId7",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId8",
+        "IsResource": false
+      }
+    ],
+    "Name": "Discovery_Oscilloscope",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../Discovery_Oscilloscope.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4"
+  },
+  "Version": "4.17.0",
+  "CreatedBy": "4.17.0"
+}

@@ -1,0 +1,22 @@
+
+{
+  "Application": {
+    "Name": "Discovery_Oscilloscope",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../Discovery_Oscilloscope.ioc --platform=m4",
+    "Family" : "STM32F4",
+    "SubFamily" : "STM32F429/439"
+  },
+  "Version": "4.17.0"
+}

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\MyApplication_1\\gui\\src\\graph_screen"
+		},
+		{
+			"path": "..\\..\\MyApplication_1\\gui\\include\\gui\\graph_screen"
+		},
+		{
+			"name": "Marlin-2.0.x",
+			"path": "..\\..\\..\\Users\\Mahdi\\Downloads\\Marlin-2.0.x_3\\Marlin-2.0.x"
+		}
+	],
+	"settings": {}
+}

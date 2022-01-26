@@ -1,0 +1,9 @@
+ili9341.c:313:10:ili9341_GetLcdPixelWidth	0	static
+ili9341.c:324:10:ili9341_GetLcdPixelHeight	0	static
+ili9341.c:259:6:ili9341_DisplayOn	0	static
+ili9341.c:270:6:ili9341_DisplayOff	0	static
+ili9341.c:119:6:ili9341_Init	8	static
+ili9341.c:248:10:ili9341_ReadID	8	static
+ili9341.c:281:6:ili9341_WriteReg	0	static
+ili9341.c:291:6:ili9341_WriteData	0	static
+ili9341.c:302:10:ili9341_ReadData	0	static
