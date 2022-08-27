@@ -1,6 +1,24 @@
 # STM32F4-Scope
 **7.2 MSa/s Digital Oscilloscope Using the STM32F429 Triple Interleaved ADCs**
 
+- [STM32F4-Scope](#stm32f4-scope)
+- [Specifications](#specifications)
+- [Hardware](#hardware)
+  * [Pins](#pins)
+  * [Buttons](#buttons)
+- [Software](#software)
+  * [Buffer](#buffer)
+  * [Interface](#interface)
+  * [To Do](#to-do)
+- [Installation](#installation)
+- [Demo](#demo)
+  * [Touchscreen Interface Demo](#touchscreen-interface-demo)
+  * [PC Interface Demo](#pc-interface-demo)
+- [How you can support this project](#how-you-can-support-this-project)
+
+
+
+
 # Specifications
 | Specs | Description |
 | ----- | ----------- |
@@ -27,7 +45,7 @@ The total circular buffer implemented has capacity for 6000 samples. <br>
 ## Interface
 When the oscilloscope is stooped, you can press the arrow button to send the captured waveform through the COM port into the PC. <br>
 You can also use the zoom in and zoom out buttons by pressing the magnifier icon, and use the scroll bar to navigate through the waveform. <br>
-## To Do:
+## To Do
 Needs some cleanup, and also some features like Volts/Div and Time/Div are not fully implemented yet. Sample rate is fixed to 7.2 Msps. Might do the cleanup and the complete the project if it received enough attention. <br>
 I also have written a Python application which receives the waveform from the USB VCP and displays the waveform on PC.
 
