@@ -2,12 +2,14 @@
 **7.2 MSa/s Digital Oscilloscope Using the STM32F429 Triple Interleaved ADCs**
 
 ## Specifications
-Sample Rate: 7.2 MSa/s
-Resolution: 12 bits
-Input Range: 0-3.3v
-Channel Count: 1
-Buffer Size: 6000 samples
-UI: Touchscreen, PC(through VCP)
+| Specs | Description |
+| ----- | ----------- |
+| Sample Rate | 7.2 MSa/s |
+| Resolution | 12 bits |
+| Input Range | 0-3.3v |
+| Channel Count | 1 |
+| Buffer Size | 6000 samples |
+| UI | Touchscreen, PC(through VCP) |
 
 ## Hardware
 I used the STM32F429 discovery board. <br>
