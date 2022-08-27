@@ -1,7 +1,7 @@
 # STM32F4-Scope
 **7.2 MSa/s Digital Oscilloscope Using the STM32F429 Triple Interleaved ADCs**
 
-- [STM32F4-Scope](#stm32f4-scope)
+# Table of Contents
 - [Specifications](#specifications)
 - [Hardware](#hardware)
   * [Pins](#pins)
