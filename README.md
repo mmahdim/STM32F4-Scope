@@ -32,9 +32,8 @@
 # Hardware
 I used the STM32F429 discovery board. <br>
 ## Pins
-
-## Buttons
 PC3 is used as the analog input, and PE2 is used as the trigger input. (in the demo they are both connected to the same input.) <br>
+## Buttons
 The green button on the discovery board acts as stop/start button. You would need to stop the oscilloscope in order for the touchscreen to become responsive. <br>
 
 # Software
