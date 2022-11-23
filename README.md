@@ -6,7 +6,7 @@
 - [Hardware](#hardware)
   * [Pins](#pins)
   * [Buttons](#buttons)
-  * [Analog Frontend](#Analog Frontend)
+  * [Analog Frontend](#Analog-Frontend)
 - [Software](#software)
   * [Buffer](#buffer)
   * [Interface](#interface)
