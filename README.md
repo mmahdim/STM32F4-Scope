@@ -45,6 +45,7 @@ The 9Meg resistor at the input is the probe's internal resistance in 10x mode. T
 
 ![image](https://user-images.githubusercontent.com/8644346/203639045-62c28868-7a2b-47c0-8650-a5507ca19b71.png)
 <br> Spice models for the OPA356 and ADG658 are available in their manufacturor websites. <br>
+The 0.2pF capacitors are there to model parasitic capacitance of resistors.<br>
 
 # Software
 CubeIDE & TouchGFX have made this project available. <br>
