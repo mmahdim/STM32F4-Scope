@@ -1,6 +1,9 @@
 # STM32F4-Scope
 **7.2 MSa/s Digital Oscilloscope Using the STM32F429 Triple Interleaved ADCs**
 
+[![DOI](https://zenodo.org/badge/452341347.svg)](https://zenodo.org/doi/10.5281/zenodo.11473471)
+
+
 # Table of Contents
 - [Specifications](#specifications)
 - [Hardware](#hardware)
