@@ -79,7 +79,7 @@ https://www.youtube.com/watch?v=pv_ZHL44sbU<br>
 # How you can support this project
 Donations are welcomed.<br>
 BTC:<br>
-3NVDwQH3wSLXiwQvm47fbM1ThZPCU62MUn
+19k3ARdLARYEpJgQZbLecgN7LxmdwEUcLb
 
 ETH (ERC20):<br>
-0xb8c32ac8c7fcaaa3b01ba43b2a8c06b507a31f2c
+0xa3531c78e5e301861f005cc6a455dbf18b5198d7
